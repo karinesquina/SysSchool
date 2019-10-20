@@ -6,19 +6,19 @@ registers = []
 final_register = []
 
 while True:
-    matter = (input ("Digite o nome da matéria, ou enter para sair.\n"))
+    subject = (input ("Digite o nome da matéria, ou enter para sair.\n"))
     insert_notes = True
-    if matter != "":
-        final_register.append(str(matter))
+    if subject != "":
+        final_register.append(str(subject))
         while insert_notes:
             note =(input("Digite a nota, ou enter para sair.\n"))
             if note == "":
                 insert_notes = False
-                some = sum(registers)
+                sum = sum(registers)
                 item = len(registers)
-                media = float(some/item)
-                final_register.append(float(media))
-                print("A média de {}, do aluno {}, é: {:.2f}".format(matter, name, media))
+                average = float(sum/item)
+                final_register.append(float(average))
+                print("A média de {}, do aluno {}, é: {:.2f}".format(subject, name, aaaaaagea
             else:
                 registers.append(float(note))
     else:

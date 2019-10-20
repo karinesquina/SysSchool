@@ -1,0 +1,12 @@
+* School System - Student Average *
+
+Script that calculates the students average based on the given values.
+
+1. Enter the student's name;
+2. Enter the name of the subject;
+3. Enter the values;
+4. When finished, press enter;
+5. If desired, enter another subject or just press enter;
+6. The system returns the calculated average;
+
+This is a prototype.
